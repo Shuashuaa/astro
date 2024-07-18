@@ -1,3 +1,10 @@
+# Run
+
+```sh
+npm install
+npm run dev
+```
+
 # Astro Starter Kit: Basics
 
 ```sh
