@@ -1,14 +1,11 @@
+# Astro_Monorepo
+> This is a boilerplate of Astro with Vuejs and TailwindCSS
+
 # Run
 
 ```sh
 npm install
 npm run dev
-```
-
-# Astro Starter Kit: Basics
-
-```sh
-npm create astro@latest -- --template basics
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
