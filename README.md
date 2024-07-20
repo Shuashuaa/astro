@@ -1,5 +1,5 @@
 # Astro_Monorepo
-> This is a boilerplate of Astro with Vuejs and TailwindCSS
+> This is a boilerplate of Astro with Vuejs/React/Angular and TailwindCSS
 
 # Run
 
