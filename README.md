@@ -1,5 +1,5 @@
 # Astro_Monorepo
-> This is a monorepo of Astro with Vuejs and TailwindCSS
+> This is a monorepo template of Astro with Vuejs in TypeScript and TailwindCSS
 
 # Run
 
