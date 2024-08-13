@@ -1,26 +1,40 @@
 ---
 import logos from '../images/framework-logos.png';
 import logosSmall from '../images/framework-logos-small.png';
+
+export interface Props {
+  heading?: string;
+  text?: string;
+  showExtra?: boolean;
+}
+
+const { 
+  heading = "Welcome To The Astro Crash Course!", 
+  text = "Build super fast HTML-first websites using your favorite JavaScript frameworks",
+  showExtra = false
+} = Astro.props as Props;
 ---
 
 <section class="showcase">
 	<div class="showcase-text">
-		<h1>Welcome To The Astro Crash Course!</h1>
+		<h1>{ heading }</h1>
 		<p>
-		Build super fast HTML-first websites using your favorite JavaScript
-		frameworks
+      { text }
 		</p>
 	</div>
-	<div class="showcase-img">
-		<img class="logos" src={logos.src} alt="" />
-		<img class="logos-small" src={logosSmall.src} alt="" />
-	</div>
 
-	<p class="showcase-demo">
-		<small>This is a demo website used for the YouTube crash course</small>
-	</p>
+  {showExtra && <>
+    <div class="showcase-img">
+      <img class="logos" src={logos.src} alt="" />
+      <img class="logos-small" src={logosSmall.src} alt="" />
+    </div>
+
+    <p class="showcase-demo">
+      <small>This is a demo website used for the YouTube crash course</small>
+    </p>
+  </>}
+	
 </section>
-
 
 <style>
 	/* Showcase */
