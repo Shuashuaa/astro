@@ -1,5 +1,10 @@
 # Astro Infra
 ![image](https://github.com/user-attachments/assets/fc541709-343d-47fa-a593-9078f77e1fb3)
+### Basics Stack
+![image](https://github.com/user-attachments/assets/cbb1e44f-b0b7-4ac6-b9f9-f4ec2722899a)
+### Understanding the connection between components
+![image](https://github.com/user-attachments/assets/ebddd8fa-7930-4ee1-a73b-3a4ab4911b7b)
+
 
 # Astro Sample Blog
 ### Based Structure
